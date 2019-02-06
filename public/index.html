@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <title>Luis Enrique</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hola</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, eaque
+        saepe! Fugit sunt voluptas ipsum alias sit dolorum non architecto
+        temporibus nesciunt vel sed ex ut sint, optio quo assumenda.
+      </p>
+      <form action="/getBlogs" method="GET" class="form-control">
+        <label for="vertabla">ver tabla</label><br />
+        <input name="vertabla" type="submit" value="Ver valores" />
+      </form>
+      <br />
+      <br />
+      <form action="/newBlog" method="POST" class="form-control">
+        <label for="title">title</label><br />
+        <input type="text" name="title" /><br />
+        <label for="author">author</label><br />
+        <input type="text" name="author" /> <br /><label for="body">body</label
+        ><br />
+        <input type="text" name="body" /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
